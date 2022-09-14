@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="description"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="https://www.cyberark.com/wp-content/themes/understrap-child/favicon.ico" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+		<link rel="manifest" href="manifest.webmanifest" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css1/general.css" />
+		<link rel="stylesheet" href="css1/style.css" />
+		<link rel="stylesheet" href="css1/queries.css" />
+		<title>WorkForce Identity</title>
+	</head>
+	<body>
+		<header class="header sticky">
+			<a class="nav-link" href="#"
+				><img src="https://www.cyberark.com/wp-content/uploads/2021/01/cyberark-logo-dark.svg" class="logo" alt="Omnifood"
+			/></a>
+			<nav class="main-nav">
+				<ul class="main-nav-list">
+					<li>
+						<a class="nav-link main-nav-link" href="#Benifits"
+							>Benifits</a
+						>
+					</li>
+					<li>
+						<a class="nav-link main-nav-link" href="#Products"
+							>Products</a
+						>
+					</li>
+					<li>
+						<a class="nav-link main-nav-link" href="#UseCase"
+							>UseCase</a
+						>
+					</li>
+					<li>
+						<a class="nav-link main-nav-link nav-cta" href="#"
+							>Get Demo</a
+						>
+					</li>
+				</ul>
+			</nav>
+
+			<button class="btn-mobile-nav">
+				<ion-icon
+					class="icon-mobile-nav"
+					name="menu-outline"
+				></ion-icon>
+				<ion-icon
+					class="icon-mobile-nav"
+					name="close-outline"
+				></ion-icon>
+			</button>
+		</header>
+		<main>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><
+			<section class="section-hero">
+				<div class="hero">
+					<div class="hero-text-box">
+						<h1 class="heading-primary">
+							WORKFORCE IDENTITY
+						</h1>
+						<p class="hero-description">
+							Empower your workforce with simple and secure access to business resources with CyberArk Workforce Identity.
+						</p>
+						<a class="btn btn--full nav-link mg-r-sm" href="#cta"
+							>IDaaS Forrester Wave</a
+						>
+						
+					</div>
+					<div class="hero-img-box">
+						<picture>
+							<source srcset="img1/main.png" type="image/png" />
+							<img class="hero-img" src="img1/main.png" alt="" />
+						</picture>
+					</div>
+				</div>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			</section>
+			<section class="section-video" >
+			<h1 class="heading-video">
+			GRANT ACCESS TO YOUR WORKFORCE.<br>
+			GIVE NOTHING TO ATTACKERS.
+			</h1>
+			<p class="video-description">
+			Your users need quick access to a variety of business resources. You need confidence it’s them knocking – not an attacker. With CyberArk Workforce Identity, you can empower your workforce while keeping threats out.
+			</p>
+			<video controls width="900" height="525" poster="https://embed-ssl.wistia.com/deliveries/49948a98b631f61b7650ade638103050.jpg">
+			<!-- <p><a href="https://www.cyberark.com/products/workforce-identity/?wvideo=ddwhkk16xm"><img src="https://embed-ssl.wistia.com/deliveries/49948a98b631f61b7650ade638103050.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=4d8fcce0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://www.cyberark.com/products/workforce-identity/?wvideo=ddwhkk16xm">Workforce Identity and Access Management (IAM) | CyberArk</a></p> -->
+			<source src="movie.mp4" type="video/mp4">
+			</video>
+			
+			</section>
+
+			<section id="Benifits" class="section-how">
+				<div class="container">
+					<span class="subheading">Benifits</span>
+					<h2 class="heading-secondary">
+						ACCESS MANAGEMENT THAT WORKS AS HARD AS YOUR WORKFORCE
+					</h2>
+				</div>
+
+				<div class="container grid grid--2-cols grid--center-v">
+					<div class="step-text-box">
+						<p class="step-number">SSO</p>
+						<h3 class="heading-tertiary">
+							Single Sign-On
+						</h3>
+						<p class="step-description">
+							One-click secure access to all resources your employees need.
+						</p>
+					</div>
+					<div class="step-img-box">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2022/04/workforce-identity-sso-tour.png"
+							class="img1"
+							alt="SSO"
+						/>
+					</div>
+
+					<div class="step-img-box">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2022/04/workforce-identity-mfa-tour.png"
+							class="img1"
+							alt="MFA"
+						/>
+					</div>
+					<div class="step-text-box">
+						<p class="step-number">MFA</p>
+						<h3 class="heading-tertiary">
+							Adaptive Multi-Factor Authentication
+						</h3>
+						<p class="step-description">
+							Validate identities with strong AI-powered, risk-aware and password-free authentication.
+						</p>
+					</div>
+
+					<div class="step-text-box">
+						<p class="step-number">Authentication</p>
+						<h3 class="heading-tertiary">
+							Endpoint Authentication
+						</h3>
+						<p class="step-description">
+							Extend multi-factor authentication to endpoints to validate and authenticate devices.
+						</p>
+					</div>
+					<div class="step-img-box">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2022/03/workforce-endpoint-auth-tour.png"
+							class="img1"
+							alt="SSO"
+						/>
+					</div>
+				</div>
+			</section>
+			<section id="Products" class="section-how">
+				<div class="container">
+					<span class="subheading">Products</span>
+					<h2 class="heading-secondary">
+						IDENTITY MANAGEMENT FOR EVERY ORGANIZATION
+					</h2>
+				</div>
+
+				<div class="container grid grid--2-cols grid--center-v">
+					<div class="step-text-box">
+						<p class="step-number">Lifecycle</p>
+						<h3 class="heading-tertiary">
+							Lifecycle Management
+						</h3>
+						<p class="step-description">
+							Streamline management of application access requests, creation of app accounts, and termination of access.
+						</p>
+					</div>
+					<div class="step-img-box">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2022/03/workforce-lcm-tour.png"
+							class="img1"
+							alt="SSO"
+						/>
+					</div>
+
+					<div class="step-img-box">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2022/07/identity-compliance-tour.png"
+							class="img1"
+							alt="MFA"
+						/>
+					</div>
+					<div class="step-text-box">
+						<p class="step-number">Compliance</p>
+						<h3 class="heading-tertiary">
+							Identity Compliance
+						</h3>
+						<p class="step-description">
+							Consolidate access rights data, streamline access recertification processes and enforce access compliance across your enterprise.
+						</p>
+					</div>
+
+					<div class="step-text-box">
+						<p class="step-number">Flows</p>
+						<h3 class="heading-tertiary">
+							Identity Flows
+						</h3>
+						<p class="step-description">
+							Automate identity management tasks through no-code app integrations and workflows for identity data, processes and events.
+						</p>
+					</div>
+					<div class="step-img-box">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2022/07/identity-flows-tour.png"
+							class="img1"
+							alt="SSO"
+						/>
+					</div>
+				</div>
+			</section>
+			
+
+			<section id="UseCase" class="section-pricing">
+				<div class="container">
+					<span class="subheading">UseCase</span>
+					<h2 class="heading-secondary">
+						SECURITY THAT WORKS FOR YOU
+					</h2>
+					<p class="security-description">
+					Here’s just a few more ways we can help you move fearlessly forward in a digital world.
+					</p>
+				</div>
+
+				<div class="container grid grid--2-cols">
+					<div class="feature">
+						<ion-icon
+							class="icon"
+							src="https://www.cyberark.com/wp-content/uploads/2021/02/Drive-Operational-Efficiency-icon.svg"
+						></ion-icon>
+						<p class="feature-title">Drive Operational Efficiencies</p>
+						<p class="feature-text">
+							Reduce complexity and burden on IT while improving protection of the business.
+						</p>
+					</div>
+					<div class="feature">
+						<ion-icon
+							class="icon"
+							src="https://www.cyberark.com/wp-content/uploads/2021/02/Enable-the-Digital-Business-icon.svg"
+						></ion-icon>
+						<p class="feature-title">Enable The Digital Business</p>
+						<p class="feature-text">
+							Secure access to business apps for human and machine identities.
+						</p>
+					</div>
+					<div class="feature">
+						<ion-icon
+							class="icon"
+							src="https://www.cyberark.com/wp-content/uploads/2021/02/Secure-DevOps-Cloud.svg"
+						></ion-icon>
+						<p class="feature-title">Secure DevOps And Cloud</p>
+						<p class="feature-text">
+							Secure access for machine identities within the DevOps pipeline.
+						</p>
+					</div>
+					<div class="feature">
+						<ion-icon
+							class="icon"
+							src="https://www.cyberark.com/wp-content/uploads/2021/02/Remote-Work.svg"
+						></ion-icon>
+						<p class="feature-title">Remote Workforce Access</p>
+						<p class="feature-text">
+							Give our remote workforce the tools they need – without compromising security.
+						</p>
+					</div>
+				</div>
+			</section>
+			
+		<footer class="footer">
+			<div class="container grid grid--footer">
+				<div class="logo-col">
+					<a href="#" class="nav-link footer-logo">
+						<img
+							src="https://www.cyberark.com/wp-content/uploads/2021/01/cyberark-logo-dark.svg"
+							alt="CyberArk"
+							class="logo"
+					/></a>
+					<ul class="social-links">
+						<li>
+							<a class="footer-link" href="">
+								<ion-icon
+									class="social-icon"
+									name="logo-instagram"
+								></ion-icon>
+							</a>
+						</li>
+						<li>
+							<a class="footer-link" href="">
+								<ion-icon
+									class="social-icon"
+									name="logo-facebook"
+								></ion-icon>
+							</a>
+						</li>
+						<li>
+							<a class="footer-link" href="">
+								<ion-icon
+									class="social-icon"
+									name="logo-twitter"
+								></ion-icon>
+							</a>
+						</li>
+					</ul>
+					<p class="copyright">
+						Copyright &copy; <span class="year"></span> CyberArk,
+						Inc. All rights reserved.
+					</p>
+				</div>
+				<div class="address-col">
+					<p class="footer-heading">Contact us</p>
+					<address class="contacts">
+						<p class="address">
+							623 Harrison St., 2nd Floor, San Francisco, CA
+						</p>
+						<p>
+							<a class="footer-link" href="tel:415-201-6370"
+								>415-201-6370</a
+							>
+							<br />
+							<a
+								class="footer-link"
+								href="mailto:hello@cyberark.com"
+								>hello@cyberark.com</a
+							>
+						</p>
+					</address>
+				</div>
+				<nav class="nav-col">
+					<p class="footer-heading">Account</p>
+					<ul class="footer-nav">
+						<li>
+							<a class="footer-link" href="#">Create account</a>
+						</li>
+						<li><a class="footer-link" href="#">Sign in</a></li>
+						<li><a class="footer-link" href="#">iOS app</a></li>
+						<li><a class="footer-link" href="#">Android app</a></li>
+					</ul>
+				</nav>
+				<nav class="nav-col">
+					<p class="footer-heading">Company</p>
+					<ul class="footer-nav">
+						<li>
+							<a class="footer-link" href="#">About CyberArk</a>
+						</li>
+						<li>
+							<a class="footer-link" href="#">For Business</a>
+						</li>
+						<li><a class="footer-link" href="#">Careers</a></li>
+					</ul>
+				</nav>
+				<nav class="nav-col">
+					<p class="footer-heading">Resources</p>
+					<ul class="footer-nav">
+						<li>
+							<a class="footer-link" href="#">Directory</a>
+						</li>
+						<li><a class="footer-link" href="#">Help center</a></li>
+						<li>
+							<a class="footer-link" href="#">Privacy & terms</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+		<!-- smooth scroll polyfill for safari -->
+		<script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
